@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Generate MD5 Code</title>
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+</head>
+
+<body style="background: white;">
+
+    <p>
+    <h4>Text:</h4>
+    <input id="inputCode" type="text" style="height: 30px;width: 770px; font-size: large;" />
+    </p>
+
+    <p>
+    <h4> MD5 code:</h4>
+    <textarea id="md5-code" name="md5-code" readonly id="md5" cols="94" rows="10" style="resize: none;"></textarea>
+    </p>
+
+    <p>
+        <button id="GenerateBtn" style="margin-left: 5%;">Generate</button>
+        <button id="SaveId" style="margin-left: 30%;">Save</button>
+        <button id="BrowserId" style="margin-left: 30%;">Browser</button>
+    </p>
+
+    <script>
+        require('./index.js')
+    </script>
+</body>
+
+</html>
